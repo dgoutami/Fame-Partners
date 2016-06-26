@@ -1,3 +1,6 @@
+.body {
+    font-family: "Times New Roman", Times, serif;
+}
 .container {
 	max-width: 1336px;
 	margin: 0 auto;
@@ -29,9 +32,51 @@
     padding: 0px;
     text-indent: -999em;
 }
-#owl-demo .item img{
+#owl-demo .item img {
     display: block;
     width: 100%;
     height: auto;
 }
-.content {padding: 20px 35px 0px 65px; line-height: 2em; }
+.content {
+	font-family: "Times New Roman", Times, serif;
+	padding: 20px 35px 0px 65px;
+	line-height: 2em;
+}
+.content h1 {
+	font-size: 35px;
+}
+.content p {
+	font-size: 20px;
+}
+.content b {
+	font-weight: bold;
+	font-family: 'AvenirNext-DemiBold';
+	font-size: 12px;
+}
+.content span {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.content strong {
+	font-weight: bold;
+	font-family: 'AvenirNext-DemiBold';
+	font-size: 20px;
+}
+
+@media screen and (min-width: 1100px) {
+	.pure-u-lg-2-3 {
+		width: 66.66%;
+	}
+	.pure-u-lg-1-3 {
+		width: 33.33%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.container { max-width: 891px; }
+	.content {
+		padding: 20px;
+	}
+}
