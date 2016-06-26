@@ -1,0 +1,37 @@
+.container {
+	max-width: 1336px;
+	margin: 0 auto;
+}
+.slider {
+	max-width: 891px;
+	position: relative;
+}
+.owl-pagination {
+	display: none;
+}
+.slider .owl-theme .owl-controls .owl-buttons .owl-prev {
+	position: absolute;
+	top: 46%;
+	left: 0%;
+	background: url('../images/left-arr.png') no-repeat;
+	width: 17px;
+    height: 33px;
+    padding: 0px;
+    text-indent: -999em;
+}
+.slider .owl-theme .owl-controls .owl-buttons .owl-next {
+	position: absolute;
+	top: 46%;
+	right: 0%;
+	background: url('../images/right-arr.png') no-repeat;
+	width: 17px;
+    height: 33px;
+    padding: 0px;
+    text-indent: -999em;
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.content {padding: 20px 35px 0px 65px; line-height: 2em; }
